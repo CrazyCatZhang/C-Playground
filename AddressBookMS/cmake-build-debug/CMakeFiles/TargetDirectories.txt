@@ -1,0 +1,3 @@
+/Users/zhangtao/CODE/Address Book MS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zhangtao/CODE/Address Book MS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhangtao/CODE/Address Book MS/cmake-build-debug/CMakeFiles/Address_Book_MS.dir
