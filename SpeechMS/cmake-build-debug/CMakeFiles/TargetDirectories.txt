@@ -1,0 +1,3 @@
+/Users/zhangtao/Documents/GitHub/C-Playground/SpeechMS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zhangtao/Documents/GitHub/C-Playground/SpeechMS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhangtao/Documents/GitHub/C-Playground/SpeechMS/cmake-build-debug/CMakeFiles/SpeechMS.dir

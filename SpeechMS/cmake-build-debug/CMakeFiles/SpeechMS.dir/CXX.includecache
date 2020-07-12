@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhangtao/Documents/GitHub/C-Playground/SpeechMS/Competitor.h
+iostream
+-
+
+/Users/zhangtao/Documents/GitHub/C-Playground/SpeechMS/SpeakerManager.cpp
+SpeakerManager.h
+/Users/zhangtao/Documents/GitHub/C-Playground/SpeechMS/SpeakerManager.h
+
+/Users/zhangtao/Documents/GitHub/C-Playground/SpeechMS/SpeakerManager.h
+Competitor.h
+/Users/zhangtao/Documents/GitHub/C-Playground/SpeechMS/Competitor.h
+iostream
+-
+vector
+-
+map
+-
+algorithm
+-
+functional
+-
+numeric
+-
+random
+-
+deque
+-
+fstream
+-
+string
+-
+
