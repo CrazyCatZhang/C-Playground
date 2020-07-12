@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhangtao/CODE/StaffMS
+CMAKE_SOURCE_DIR = /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhangtao/CODE/StaffMS/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/StaffMS.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/StaffMS.dir/flags.make
 
 CMakeFiles/StaffMS.dir/main.cpp.o: CMakeFiles/StaffMS.dir/flags.make
 CMakeFiles/StaffMS.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangtao/CODE/StaffMS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/StaffMS.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StaffMS.dir/main.cpp.o -c /Users/zhangtao/CODE/StaffMS/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/StaffMS.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StaffMS.dir/main.cpp.o -c /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/main.cpp
 
 CMakeFiles/StaffMS.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StaffMS.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangtao/CODE/StaffMS/main.cpp > CMakeFiles/StaffMS.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/main.cpp > CMakeFiles/StaffMS.dir/main.cpp.i
 
 CMakeFiles/StaffMS.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StaffMS.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangtao/CODE/StaffMS/main.cpp -o CMakeFiles/StaffMS.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/main.cpp -o CMakeFiles/StaffMS.dir/main.cpp.s
 
 CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.o: CMakeFiles/StaffMS.dir/flags.make
 CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.o: ../Source/WorkerManagement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangtao/CODE/StaffMS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.o -c /Users/zhangtao/CODE/StaffMS/Source/WorkerManagement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.o -c /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/WorkerManagement.cpp
 
 CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangtao/CODE/StaffMS/Source/WorkerManagement.cpp > CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/WorkerManagement.cpp > CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.i
 
 CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangtao/CODE/StaffMS/Source/WorkerManagement.cpp -o CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/WorkerManagement.cpp -o CMakeFiles/StaffMS.dir/Source/WorkerManagement.cpp.s
 
 CMakeFiles/StaffMS.dir/Source/Employee.cpp.o: CMakeFiles/StaffMS.dir/flags.make
 CMakeFiles/StaffMS.dir/Source/Employee.cpp.o: ../Source/Employee.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangtao/CODE/StaffMS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StaffMS.dir/Source/Employee.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StaffMS.dir/Source/Employee.cpp.o -c /Users/zhangtao/CODE/StaffMS/Source/Employee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StaffMS.dir/Source/Employee.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StaffMS.dir/Source/Employee.cpp.o -c /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/Employee.cpp
 
 CMakeFiles/StaffMS.dir/Source/Employee.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StaffMS.dir/Source/Employee.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangtao/CODE/StaffMS/Source/Employee.cpp > CMakeFiles/StaffMS.dir/Source/Employee.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/Employee.cpp > CMakeFiles/StaffMS.dir/Source/Employee.cpp.i
 
 CMakeFiles/StaffMS.dir/Source/Employee.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StaffMS.dir/Source/Employee.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangtao/CODE/StaffMS/Source/Employee.cpp -o CMakeFiles/StaffMS.dir/Source/Employee.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/Employee.cpp -o CMakeFiles/StaffMS.dir/Source/Employee.cpp.s
 
 CMakeFiles/StaffMS.dir/Source/Manager.cpp.o: CMakeFiles/StaffMS.dir/flags.make
 CMakeFiles/StaffMS.dir/Source/Manager.cpp.o: ../Source/Manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangtao/CODE/StaffMS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StaffMS.dir/Source/Manager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StaffMS.dir/Source/Manager.cpp.o -c /Users/zhangtao/CODE/StaffMS/Source/Manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StaffMS.dir/Source/Manager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StaffMS.dir/Source/Manager.cpp.o -c /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/Manager.cpp
 
 CMakeFiles/StaffMS.dir/Source/Manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StaffMS.dir/Source/Manager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangtao/CODE/StaffMS/Source/Manager.cpp > CMakeFiles/StaffMS.dir/Source/Manager.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/Manager.cpp > CMakeFiles/StaffMS.dir/Source/Manager.cpp.i
 
 CMakeFiles/StaffMS.dir/Source/Manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StaffMS.dir/Source/Manager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangtao/CODE/StaffMS/Source/Manager.cpp -o CMakeFiles/StaffMS.dir/Source/Manager.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/Manager.cpp -o CMakeFiles/StaffMS.dir/Source/Manager.cpp.s
 
 CMakeFiles/StaffMS.dir/Source/Boss.cpp.o: CMakeFiles/StaffMS.dir/flags.make
 CMakeFiles/StaffMS.dir/Source/Boss.cpp.o: ../Source/Boss.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangtao/CODE/StaffMS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/StaffMS.dir/Source/Boss.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StaffMS.dir/Source/Boss.cpp.o -c /Users/zhangtao/CODE/StaffMS/Source/Boss.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/StaffMS.dir/Source/Boss.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StaffMS.dir/Source/Boss.cpp.o -c /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/Boss.cpp
 
 CMakeFiles/StaffMS.dir/Source/Boss.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StaffMS.dir/Source/Boss.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangtao/CODE/StaffMS/Source/Boss.cpp > CMakeFiles/StaffMS.dir/Source/Boss.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/Boss.cpp > CMakeFiles/StaffMS.dir/Source/Boss.cpp.i
 
 CMakeFiles/StaffMS.dir/Source/Boss.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StaffMS.dir/Source/Boss.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangtao/CODE/StaffMS/Source/Boss.cpp -o CMakeFiles/StaffMS.dir/Source/Boss.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/Boss.cpp -o CMakeFiles/StaffMS.dir/Source/Boss.cpp.s
 
 # Object files for target StaffMS
 StaffMS_OBJECTS = \
@@ -140,7 +140,7 @@ StaffMS: CMakeFiles/StaffMS.dir/Source/Manager.cpp.o
 StaffMS: CMakeFiles/StaffMS.dir/Source/Boss.cpp.o
 StaffMS: CMakeFiles/StaffMS.dir/build.make
 StaffMS: CMakeFiles/StaffMS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhangtao/CODE/StaffMS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable StaffMS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable StaffMS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StaffMS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/StaffMS.dir/clean:
 .PHONY : CMakeFiles/StaffMS.dir/clean
 
 CMakeFiles/StaffMS.dir/depend:
-	cd /Users/zhangtao/CODE/StaffMS/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhangtao/CODE/StaffMS /Users/zhangtao/CODE/StaffMS /Users/zhangtao/CODE/StaffMS/cmake-build-debug /Users/zhangtao/CODE/StaffMS/cmake-build-debug /Users/zhangtao/CODE/StaffMS/cmake-build-debug/CMakeFiles/StaffMS.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/CMakeFiles/StaffMS.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/StaffMS.dir/depend
 

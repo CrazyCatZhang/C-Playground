@@ -81,7 +81,7 @@ void WorkerManagement::addEmployee() {
         this->setMemberNum(newSize);
         saveEmployee();
         cout << "添加成功..." << endl;
-
+        this->initialize();
     } else {
         cout << "输入有误 请重新输入..." << endl;
     }
@@ -111,6 +111,7 @@ void WorkerManagement::saveEmployee() {
             << this->getMemberArray()[i]->getDepId() << endl;
     }
     ofs.close();
+    this->setFileIsEmpty(false);
 }
 
 void WorkerManagement::initialize() {
@@ -118,7 +119,7 @@ void WorkerManagement::initialize() {
     ifstream ifs;
     ifs.open(FILENAME, ios::in);
     if (!ifs.is_open()) {
-        cout << "文件不存在" << endl;
+//        cout << "文件不存在" << endl;
 //        WorkerManagement(0, true, NULL);
         this->setMemberNum(0);
         this->setFileIsEmpty(true);

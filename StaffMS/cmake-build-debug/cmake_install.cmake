@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zhangtao/CODE/StaffMS
+# Install script for directory: /Users/zhangtao/Documents/GitHub/C-Playground/StaffMS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/zhangtao/CODE/StaffMS/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

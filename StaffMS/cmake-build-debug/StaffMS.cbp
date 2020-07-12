@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/zhangtao/CODE/StaffMS/cmake-build-debug"/>
+				<Option working_dir="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/zhangtao/CODE/StaffMS/cmake-build-debug"/>
+				<Option working_dir="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/zhangtao/CODE/StaffMS/cmake-build-debug"/>
+				<Option working_dir="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="StaffMS">
-				<Option output="/Users/zhangtao/CODE/StaffMS/cmake-build-debug/StaffMS" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zhangtao/CODE/StaffMS/cmake-build-debug"/>
+				<Option output="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/StaffMS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 StaffMS"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 StaffMS"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="StaffMS/fast">
-				<Option output="/Users/zhangtao/CODE/StaffMS/cmake-build-debug/StaffMS" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zhangtao/CODE/StaffMS/cmake-build-debug"/>
+				<Option output="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/StaffMS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,44 +73,44 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 StaffMS/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/CODE/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 StaffMS/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/zhangtao/CODE/StaffMS/Header/Boss.h">
+		<Unit filename="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Header/Boss.h">
 			<Option target="StaffMS"/>
 		</Unit>
-		<Unit filename="/Users/zhangtao/CODE/StaffMS/Header/Employee.h">
+		<Unit filename="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Header/Employee.h">
 			<Option target="StaffMS"/>
 		</Unit>
-		<Unit filename="/Users/zhangtao/CODE/StaffMS/Header/Manager.h">
+		<Unit filename="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Header/Manager.h">
 			<Option target="StaffMS"/>
 		</Unit>
-		<Unit filename="/Users/zhangtao/CODE/StaffMS/Header/Worker.h">
+		<Unit filename="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Header/Worker.h">
 			<Option target="StaffMS"/>
 		</Unit>
-		<Unit filename="/Users/zhangtao/CODE/StaffMS/Header/WorkerManagement.h">
+		<Unit filename="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Header/WorkerManagement.h">
 			<Option target="StaffMS"/>
 		</Unit>
-		<Unit filename="/Users/zhangtao/CODE/StaffMS/Source/Boss.cpp">
+		<Unit filename="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/Boss.cpp">
 			<Option target="StaffMS"/>
 		</Unit>
-		<Unit filename="/Users/zhangtao/CODE/StaffMS/Source/Employee.cpp">
+		<Unit filename="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/Employee.cpp">
 			<Option target="StaffMS"/>
 		</Unit>
-		<Unit filename="/Users/zhangtao/CODE/StaffMS/Source/Manager.cpp">
+		<Unit filename="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/Manager.cpp">
 			<Option target="StaffMS"/>
 		</Unit>
-		<Unit filename="/Users/zhangtao/CODE/StaffMS/Source/WorkerManagement.cpp">
+		<Unit filename="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/Source/WorkerManagement.cpp">
 			<Option target="StaffMS"/>
 		</Unit>
-		<Unit filename="/Users/zhangtao/CODE/StaffMS/main.cpp">
+		<Unit filename="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/main.cpp">
 			<Option target="StaffMS"/>
 		</Unit>
-		<Unit filename="/Users/zhangtao/CODE/StaffMS/CMakeLists.txt">
+		<Unit filename="/Users/zhangtao/Documents/GitHub/C-Playground/StaffMS/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
