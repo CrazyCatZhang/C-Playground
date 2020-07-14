@@ -83,7 +83,7 @@ void Teacher::auditOrder() {
         cin.get();
         return;
     }
-    cout << "审核提交申请的预约信息 可审核的预约信息如下：" << endl;
+    cout << "只能审核已申请的预约信息..." << endl;
     int index = 0;
     vector<int> vector1;
     for (int i = 0; i < order.getIndex(); ++i) {
@@ -93,6 +93,8 @@ void Teacher::auditOrder() {
             cout << "预约日期：周" << order.orderInfo[i]["date"];
             cout << "\t时段：" << (order.orderInfo[i]["interval"] == "1" ? "上午" : "下午");
             cout << "\t机房：" << order.orderInfo[i]["roomNumber"];
+            cout << "\t学号：" << order.orderInfo[i]["stuId"];
+            cout << "\t用户名：" << order.orderInfo[i]["stuName"];
             string status = "\t状态：";
             if (order.orderInfo[i]["status"] == "1") {
                 status += "审核中";
@@ -103,49 +105,47 @@ void Teacher::auditOrder() {
             } else if (order.orderInfo[i]["status"] == "-1") {
                 status += "预约失败";
             }
-            cout << status << endl;
+            cout << status;
+            cout << "\t提交时间：" << order.orderInfo[i]["time"] << endl;
         }
     }
-    cout << "请选择你要审核的预约信息：" << endl;
-    int select = 0;
-    do {
-        cin >> select;
-        if (select >= 0 && select <= vector1.size()) {
-            if (select == 0) {
-                break;
-            } else {
-                cout << "1.通过申请..." << endl;
-                cout << "2.拒绝申请..." << endl;
-                int choice = 0;
-                cin >> choice;
-                if (choice == 1) {
-                    order.orderInfo[vector1.at(select - 1)]["status"] = "2";
-                    order.orderInfo[vector1.at(select - 1)]["time"] = (new Time)->getCurrentSystemTime();
-                    order.updateOrder();
-                    cout << "已成功审核预约..." << endl;
-                } else {
-                    order.orderInfo[vector1.at(select - 1)]["status"] = "-1";
-                    order.orderInfo[vector1.at(select - 1)]["time"] = (new Time)->getCurrentSystemTime();
-                    order.updateOrder();
-                    cout << "已拒绝预约申请..." << endl;
-                }
-                cout << "是否继续审核" << endl;
-                cout << "1.继续审核..." << endl;
-                cout << "0.退出审核..." << endl;
-                int key = 0;
-                cin >> key;
-                if (key == 1) {
-                    continue;
-                }
-                if (key == 0) {
+    if (vector1.size() != 0){
+        cout << "请选择你要审核的预约信息：" << endl;
+        int select = 0;
+        while (true) {
+            cin >> select;
+            if (select >= 0 && select <= vector1.size()) {
+                if (select == 0) {
                     break;
+                } else {
+                    cout << "1.通过申请..." << endl;
+                    cout << "2.拒绝申请..." << endl;
+                    int choice = 0;
+                    cin >> choice;
+                    if (choice == 1) {
+                        order.orderInfo[vector1.at(select - 1)]["status"] = "2";
+                        order.orderInfo[vector1.at(select - 1)]["time"] = (new Time)->getCurrentSystemTime();
+                        order.updateOrder();
+                        cout << "已成功审核预约..." << endl;
+                        break;
+                    } else {
+                        order.orderInfo[vector1.at(select - 1)]["status"] = "-1";
+                        order.orderInfo[vector1.at(select - 1)]["time"] = (new Time)->getCurrentSystemTime();
+                        order.updateOrder();
+                        cout << "已拒绝预约申请..." << endl;
+                        break;
+                    }
                 }
             }
+            cout << "输入错误 请重新输入..." << endl;
         }
-        cout << "输入错误 请重新输入..." << endl;
-    } while (true);
+    } else{
+        cout << "暂无可审核的预约记录..." << endl;
+    }
     cout << "按任意键继续...";
     getchar();
     cin.get();
 }
+
+
 

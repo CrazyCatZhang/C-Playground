@@ -29,7 +29,7 @@ void Management::exitSystem() {
 
 void Management::login(string filename, int type) {
     Identity *identity = NULL;
-    cout << "请登录：" << endl;
+    cout << "----- 请登录 -----" << endl;
     ifstream ifs;
     ifs.open(filename, ios::in);
     if (!ifs.is_open()) {

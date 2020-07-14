@@ -15,7 +15,7 @@ class Order {
 private:
     int index;
 public:
-    map<int,map<string,string>> orderInfo;
+    map<int,map<string,string> > orderInfo;
 public:
     int getIndex() const;
 

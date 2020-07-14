@@ -1,4 +1,0 @@
-date:2 interval:1 roomNumber:2 stuId:1 stuName:zhangsan status:0 time:2020-07-14-01.05.49
-date:4 interval:2 roomNumber:3 stuId:1 stuName:zhangsan status:2 time:2020-07-14-01.31.15
-date:3 interval:1 roomNumber:2 stuId:1 stuName:zhangsan status:2 time:2020-07-14-01.34.00
-date:2 interval:1 roomNumber:1 stuId:2 stuName:lisi status:1 time:2020-07-14-01.30.31

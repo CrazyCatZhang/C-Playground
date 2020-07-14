@@ -65,13 +65,11 @@ void Admin::addAccount() {
             ofs << it->getStudentId() << " "
                 << it->getUsername() << " "
                 << it->getPassword() << endl;
+            ofs << endl;
         }
         vector1.clear();
         ofs.close();
         cout << "添加学生账户成功..." << endl;
-        cout << "按任意键继续...";
-        getchar();
-        cin.get();
     } else {
         vector<Teacher> vector2;
         cout << "请输入你要添加的职工号：" << endl;
@@ -96,15 +94,16 @@ void Admin::addAccount() {
             ofs << it->getTeacherId() << " "
                 << it->getUsername() << " "
                 << it->getPassword() << endl;
+            ofs << endl;
         }
         vector2.clear();
         ofs.close();
         cout << "添加教师账户成功..." << endl;
-        cout << "按任意键继续...";
-        getchar();
-        cin.get();
     }
     this->initialize();
+    cout << "按任意键继续...";
+    getchar();
+    cin.get();
 }
 
 void Admin::selectAccount() {

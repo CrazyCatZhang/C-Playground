@@ -5,12 +5,14 @@
 #ifndef COMPUTERROOMRS_MANAGEMENT_H
 #define COMPUTERROOMRS_MANAGEMENT_H
 #pragma once
+
 #include <iostream>
 #include <fstream>
 #include "../Student/Student.h"
 #include "../Teacher/Teacher.h"
 #include "../Admin/Admin.h"
 #include "../Header/Global.h"
+
 using namespace std;
 
 class Management {
@@ -23,13 +25,13 @@ public:
 
     void exitSystem();
 
-    void login(string filename,int type);
+    void login(string filename, int type);
 
-    void StudentMenu(Identity * &identity);
+    void StudentMenu(Identity *&identity);
 
-    void TeacherMenu(Identity * &identity);
+    void TeacherMenu(Identity *&identity);
 
-    void AdminMenu(Identity * &identity);
+    void AdminMenu(Identity *&identity);
 };
 
 
